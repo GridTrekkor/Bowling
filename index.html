@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bowlingApp">
+<head>
+    <meta charset="UTF-8">
+    <script src="bowling.js"></script>
+    <style>
+        table, td {
+            padding : 10px;
+            border-spacing: 10px;
+            border-collapse: separate;
+        }
+        td {
+            border: 1px solid black;
+            width : 55px;
+            height : 55px;
+            text-align : center;
+            box-shadow : 0 0 3px #777;
+        }
+    </style>
+    <title>Bowling</title>
+</head>
+<body>
+
+<button onclick="bowl()">Roll</button>
+
+<br><br>
+
+Score: <span id="score">0</span>
+
+<table id="frames">
+    <tr>
+        <td id="frame1" style="background-color:#FB8">&nbsp;</td>
+        <td id="frame2">&nbsp;</td>
+        <td id="frame3">&nbsp;</td>
+        <td id="frame4">&nbsp;</td>
+        <td id="frame5">&nbsp;</td>
+        <td id="frame6">&nbsp;</td>
+        <td id="frame7">&nbsp;</td>
+        <td id="frame8">&nbsp;</td>
+        <td id="frame9">&nbsp;</td>
+        <td id="frame10">&nbsp;</td>
+    </tr>
+</table>
+
+</body>
+</html>
